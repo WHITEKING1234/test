@@ -16,6 +16,8 @@
 		0413D27D2947562D00027BC3 /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413D27C2947562D00027BC3 /* testTests.swift */; };
 		0413D2872947562D00027BC3 /* testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413D2862947562D00027BC3 /* testUITests.swift */; };
 		0413D2892947562D00027BC3 /* testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413D2882947562D00027BC3 /* testUITestsLaunchTests.swift */; };
+		0413D2962947589400027BC3 /* TableViewCell12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413D2952947589400027BC3 /* TableViewCell12.swift */; };
+		0413D298294759CF00027BC3 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413D297294759CF00027BC3 /* model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0413D2822947562D00027BC3 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0413D2862947562D00027BC3 /* testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITests.swift; sourceTree = "<group>"; };
 		0413D2882947562D00027BC3 /* testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0413D2952947589400027BC3 /* TableViewCell12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell12.swift; sourceTree = "<group>"; };
+		0413D297294759CF00027BC3 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				0413D26E2947562C00027BC3 /* Assets.xcassets */,
 				0413D2702947562C00027BC3 /* LaunchScreen.storyboard */,
 				0413D2732947562C00027BC3 /* Info.plist */,
+				0413D2952947589400027BC3 /* TableViewCell12.swift */,
+				0413D297294759CF00027BC3 /* model.swift */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0413D298294759CF00027BC3 /* model.swift in Sources */,
 				0413D26A2947562A00027BC3 /* ViewController.swift in Sources */,
 				0413D2662947562A00027BC3 /* AppDelegate.swift in Sources */,
+				0413D2962947589400027BC3 /* TableViewCell12.swift in Sources */,
 				0413D2682947562A00027BC3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
